@@ -186,7 +186,7 @@ class View(QMainWindow):
         self.styles()
 
 
-#if statement to only run the main method
+#runs main method
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     view = View()
