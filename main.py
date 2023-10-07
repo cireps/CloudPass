@@ -45,7 +45,7 @@ class View(QMainWindow):
     #creates a passcode using the PasswordGenerator method, inserts this password into the view (password_field)
     """
     The values returned by the horizotalSlider(int), use_digits_box(bool), and the use_special_char_box(bool)
-    are used as arguments in the PasswordGenerator method, dynamically updating the view when the function
+    are used as arguments in the PasswordGenerator method, dynamically updating the view when the generate_passcode function
     is called.
     """
     def generate_passcode(self) -> None:
