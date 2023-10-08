@@ -21,7 +21,7 @@ pip install PyQt6 pyperclip
 
 2. Clone the repository:
 ```bash
-git clone git clone https://github.com/cireps/CloudPass.git
+git clone https://github.com/cireps/CloudPass.git
 
 ```
 
