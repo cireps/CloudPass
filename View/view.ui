@@ -21,13 +21,28 @@
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>99</y>
+      <y>95</y>
       <width>131</width>
-      <height>21</height>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
     </property>
     <property name="cursor">
      <cursorShape>SizeHorCursor</cursorShape>
+    </property>
+    <property name="minimum">
+     <number>0</number>
     </property>
     <property name="maximum">
      <number>30</number>
@@ -110,7 +125,7 @@
      <rect>
       <x>20</x>
       <y>130</y>
-      <width>141</width>
+      <width>161</width>
       <height>18</height>
      </rect>
     </property>
@@ -129,7 +144,7 @@
      <rect>
       <x>180</x>
       <y>130</y>
-      <width>71</width>
+      <width>81</width>
       <height>18</height>
      </rect>
     </property>
@@ -147,7 +162,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>100</y>
+      <y>101</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -160,7 +175,7 @@
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>100</y>
+      <y>101</y>
       <width>21</width>
       <height>17</height>
      </rect>
@@ -267,7 +282,7 @@
       <rect>
        <x>44</x>
        <y>13</y>
-       <width>61</width>
+       <width>71</width>
        <height>16</height>
       </rect>
      </property>
