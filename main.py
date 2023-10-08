@@ -92,6 +92,11 @@ class View(QMainWindow):
         try:
             self.setWindowFlags(Qt.WindowType.FramelessWindowHint)
             self.setFixedSize(302, 210)
+            self.setStyleSheet("""
+                               QMainWindow{
+                                   background-color: #EEEEEE;
+                               }
+                               """)
             self.generate_button.setStyleSheet("""
                     border-radius: 15px;
                     color: white;
@@ -101,6 +106,7 @@ class View(QMainWindow):
                     """)
             self.frame.setStyleSheet("""
                                      background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 148, 217, 255), stop:1 rgba(0, 200, 255, 255));
+                                     border: none;
                                      """)
             self.copy_button.setStyleSheet("""
                     border-radius: 15px;
@@ -129,6 +135,9 @@ class View(QMainWindow):
                                               font-family: helvetica;
                                               background-color: #E0E0E0;
                                               """)
+            self.horizontalSlider.setStyleSheet("""
+                                                background-color: none;
+                                                """)
 
             self.label_3.setStyleSheet("""
                     font-family: helvetica;
@@ -192,6 +201,3 @@ if __name__ == '__main__':
     view = View()
     view.show()
     app.exec()
-    
-    
-  
